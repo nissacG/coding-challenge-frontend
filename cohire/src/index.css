@@ -1,0 +1,26 @@
+* {
+  --bg-color: #f6f7f9;
+  --blue-color: #001e2d;
+  --yellow-color: #d9e021;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bg-color);
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+}
